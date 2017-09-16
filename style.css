@@ -1,0 +1,188 @@
+/*   Custom CSS file    */
+
+html {
+	background: url(../../img/background.jpeg)no-repeat center center fixed; /*   Link to image if available    */
+	background-color: #FFF; /*   Use a background color if image is not available    */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+}
+
+.container {
+	width: 60%;
+	margin: 0 auto;
+}
+.center {
+	text-align: center;
+		clear: right;
+}
+
+
+/*    Nav       */
+
+.nav-head {
+	margin: 0;
+	width: 100%;
+	height:25px;
+	padding-top: 15px; padding-bottom: 15px;
+/*	background-color: #222;  */
+	font-size: 20px;
+
+}
+
+.nav-titles {
+	float: right;
+	margin-right: 25px;
+}
+
+	/*Nav Links*/
+
+.nav-titles a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.nav-titles a:hover {
+		/*Insert Styles Here*/
+}
+.nav-titles a:active {
+		/*Insert Styles Here*/
+}
+.nav-titles a:visited {
+		/*Insert Styles Here*/
+}
+
+
+
+/*       Alerts!       */
+
+.alert-fail {
+	background-color: crimson;
+	display: block; 
+	height: 25px;
+	padding: 10px;
+	margin: 0 auto; 
+	margin-bottom: 15px;
+	color: white; 
+	font-size: 20px;
+	width: 500px;
+}
+
+.alert-success {
+	background-color: green;
+	display: block; 
+	height: 25px;
+	padding: 10px;
+	margin: 0 auto; 
+	margin-bottom: 15px;
+	color: white; 
+	font-size: 20px;
+	width: 500px;
+}
+/*   Contact Form    */
+
+
+/*       Labels      */
+
+label {
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+	margin:10px;
+	margin-left: 0px;
+}
+
+/*       Text Inputs / Message Box     */
+
+.form-inputs {
+	width:500px;
+	padding: 10px;
+	font-size: 20px;
+	height: 20px;
+}
+
+.form-inputs-textarea {
+	width:500px;
+	height: 200px;
+	padding: 10px;
+	font-size: 20px;
+}
+.form-container{
+	width: 500px;
+	margin: 0 auto;
+}
+
+/*       Submit Button       */
+
+.submit-btn {
+	background-color: #2780e3;
+	padding: 15px;
+	width: 120px;
+	border: none;
+	color: #FFF;font-size: 16px;
+	text-align: center;
+	margin-left: 15px;
+	float: right;
+	margin-bottom: 50px;
+	cursor:pointer;
+	
+}
+
+.submit-btn:hover {
+	background-color: #1762B6;
+	
+}
+
+
+
+#footer {
+	padding: 25px;
+	text-align: center;
+	border-bottom: 4px #fff solid;
+	border-top: 4px #fff solid;
+	background-image: url(../../img/white-opacity20.png);
+	margin-bottom: 120px;
+}
+
+#footer a {
+	color: #e38025;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
